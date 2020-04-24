@@ -1,0 +1,13 @@
+npm i -D webpack-dev-server #servidor de desarrollo de webpack: util para no ejecutar el comando npm run build cada vez que hagamos una modificación
+npm i -D css-loader style-loader: lee el archivo y lo minifica y lo coloca en el bundle
+npm i -D mini-css-extract-plugin: para los estilos globales
+npm i -D optimize-css-assets-webpack-plugin: para minificar los estilos globales
+npm i -D file-loader: para archivos (como imágenes)
+
+https://babeljs.io/docs/en/babel-preset-minify 
+npm install babel-preset-minify --save-dev
+
+npm install babel-minify-webpack-plugin --save-dev
+
+npm install --save-dev @babel/preset-env
+
